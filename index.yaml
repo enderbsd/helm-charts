@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  powerdns:
+  - apiVersion: v2
+    appVersion: "4"
+    created: "2022-09-27T21:17:27.969397705-07:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: "11"
+    description: Deploy PowerDNS with configured domains
+    digest: e8644e0f2fa70b00cb073e80e3ef90af5381b80c2010967b36360a74edccc489
+    home: https://enderbsd.com
+    icon: https://github.com/enderbsd/helm-charts/tree/master/powerdns/powerdns.png
+    keywords:
+    - dns
+    maintainers:
+    - email: ender@none.net
+      name: enderbsd
+    name: powerdns
+    sources:
+    - https://github.com/PowerDNS/pdns
+    urls:
+    - https://enderbsd.github.io/helm-charts/charts/powerdns-1.1.1.tgz
+    version: 1.1.1
+generated: "2022-09-27T21:17:27.964585644-07:00"

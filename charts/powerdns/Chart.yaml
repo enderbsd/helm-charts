@@ -8,7 +8,7 @@ keywords:
 home: https://enderbsd.com
 dependencies:
 - name: mariadb
-  version: 7
+  version: 11
   repository: https://charts.bitnami.com/bitnami
   condition: mariadb.enabled
 sources:
